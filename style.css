@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header{
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 300px;
+    font-size: 1.4em;
+    color:#ffffff;
+
+}
+
+.navigation 
+
+
+{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    font-size: 1.1em;
+    color:#fff;
+    justify-content: space-between;
+   
+  
+}
+.navigation a
+{
+    text-decoration: none;
+    color:#fff;
+    
+
+    
+}
+
+
+
+.navigation a:hover
+{
+    color: #eef12e;
+    transition: 1s all;
+}
+.call
+{
+    padding: 20px 12px;
+    border-style: solid; 
+    border-width: 2px;
+    border-color: #f2f7fc;
+    border-radius: 5px;
+    line-height: 2px;
+    
+    
+
+    
+
+   
+    
+    
+}
+.call:hover
+{
+    background-color: #ffffff;
+    
+    
+}
+section
+{
+    padding: 100px 200px;
+}
+.main
+{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(img/back.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+
+
+   
+
+h1
+{
+    font-size: xx-large;
+    color: #fff;
+    
+    
+}
+
+h1 span
+{
+    font-size: medium;
+    color: rgb(0, 209, 209);
+}
+p
+{
+    color: #fff;
+    padding-top: 15px;
+    text-align: justify;
+    font-weight: 900;
+    font-style: italic;
+    font-size: larger;
+    line-height: normal;
+
+
+}
+element.style {
+}
+@media (max-width: 1024px) and (min-width: 768px)
+.elementor-295 .elementor-element.elementor-element-2d03f64 
+{
+    --width: 100%;
+}
+@media (min-width: 768px)
+.elementor-295 .elementor-element.elementor-element-2d03f64 
+ {
+    --width: 1085px;
+ }
+.elementor-295 .elementor-element.elementor-element-2d03f64 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --justify-content: center;
+    --background-transition: .3s;
+}
